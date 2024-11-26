@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+#ul-list {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  list-style-type: none;
+}
+
+#ul-list a {
+  font-size: 2rem;
+  text-decoration: none;
+  height: 40px;
+  width: 130px;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+}
