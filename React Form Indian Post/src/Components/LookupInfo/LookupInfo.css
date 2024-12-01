@@ -1,0 +1,119 @@
+.lookup-info {
+  width: 98.5vw;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.lookup-info .first-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  gap: 10px;
+  font-size: 1.3rem;
+}
+
+.lookup-info .search-bar {
+  width: 98vw;
+  height: 40px;
+  border: 2px solid black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 2px solid black;
+  border-radius: 7px;
+}
+
+.search-bar input {
+  height: 100%;
+  font-size: 1.2rem;
+  width: 95%;
+  outline: none;
+  border: none;
+}
+
+.search-bar i {
+  height: 40px;
+  width: 30px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.post-list {
+  width: 98vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.post-list .post {
+  border: 1.8px solid black;
+  flex-grow: 1;
+}
+
+.post ul {
+  list-style-type: none;
+  padding: 10px;
+}
+
+.post ul li {
+  line-height: 30px;
+  font-size: 1.3rem;
+}
+
+.first-div i {
+  font-size: 2rem;
+  cursor: pointer;
+  color: blue;
+}
+
+/* loading animation */
+
+/* General Styles */
+.loader-main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background: #f0f2f5;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Loading Container */
+.loading-container {
+  text-align: center;
+}
+
+.loading-container p {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #555;
+}
+
+/* Spinner Animation */
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid rgba(0, 0, 0, 0.1);
+  border-top: 5px solid #3498db;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 0 auto;
+}
+
+/* Keyframes for Spinner */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
